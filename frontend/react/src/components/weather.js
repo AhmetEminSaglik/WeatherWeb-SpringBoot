@@ -3,9 +3,7 @@ import logo from "../logo.png";
 import moment from "moment";
 
 const Weather = ({ data }) => {
-    console.log(data);
 
-    
     return data.id ? (
         <div className="details">
             <div className="left-side">
